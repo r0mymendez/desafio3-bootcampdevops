@@ -1,18 +1,18 @@
 # Desafio Devops
 
-O projeto contém uma aplicação básica com Node, Ngnix e MySQL. 
+El proyecto contiene una aplicación básica con Node, Ngnix y MySQL.
 
-A cada atualização da página, um novo registro será cadastrado no banco de dados e será mostrado na listagem, na mesma página.  
+Con cada actualización de la página, se registrará un nuevo registro en la base de datos y se mostrará en la lista, en la misma página.
 
-O projeto contém algumas falhas e erros, analise e implemente as devidas correções.
+El proyecto contiene algunas falencias y errores, analizar e implementar las correcciones correspondientes.
 
-Se não entender algum conceito ou parte do problema, não é motivo para se preocupar! Queremos que faça o desafio até onde souber.
+Si no entiendes algún concepto o parte del problema, ¡no hay de qué preocuparse! Queremos que aceptes el desafío hasta donde sepas.
 
-### O que deve ser feito? ### 
+### ¿Lo que debe hacerse? ### 
 
- - ajustes que fazem todas as aplicações subirem e se comunicarem
- - um README contendo os seus pensamentos ao longo do projeto para identificação e correção dos erros
+ - ajustes que hacen que todas las aplicaciones se levanten y se comuniquen
+ - un README que contiene información sobre el problema a lo largo del proyecto para identificar y corregir errores
 
-Faça um fork e realize commits ao longo do processo para que possamos entender o seu modo de pensar! :)
+Comprométase en el camino para que podamos entender su forma de pensar!! :)
  
   

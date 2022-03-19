@@ -7,5 +7,5 @@ const port = 3000
 app.use(routes);
 
 app.listen(port, () => {
-    console.log('Rodando na porta ' + port)
+    console.log('Conectando por el puerto ' + port)
 })
