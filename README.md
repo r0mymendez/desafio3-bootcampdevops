@@ -15,4 +15,40 @@ Si no entiendes algún concepto o parte del problema, ¡no hay de qué preocupar
 
 Comprométase en el camino para que podamos entender su forma de pensar!! :)
  
-  
+---
+
+### 📝 Solución: 🙋🏻‍♀️ Romina Mendez (r0mymendez)
+
+1. **docker-compose:** Agregar networks: **Docker Engine** tiene un conjunto de driver que permiten crear configuraciones de redes y una de ella es **bridge** que es la que permite comunicar a los contenedores entre si.
+
+   ```Dockerfile
+   networks: 
+        node-network:
+            driver: bridge
+   ```
+2. **docker-compose:** Agregar el port al contenedor de MYSQL
+   ```Dockerfile
+    ports:
+        - "3306:3306"
+    ```
+
+3. **DockerFile**: Se agrega la siguiente sintaxis que es el que va a instalar todos los paquetes que estan definidos en el archivo **package.json**
+ ```Dockerfile
+    RUN npm install
+
+ ```
+
+4. **DockerFile**: Modificar el entrypoint que es el que especifica que ejecutable va utilizar el contendor.
+
+   ```Dockerfile
+    ENTRYPOINT ./docker-entrypoint.sh
+   ```
+
+5.  **connectionDb.js**: Se modifica la base de datos, que se puede validar desde el archivo `/mysql/init.sql` y la denominación del esquema de la base de datos es `node_db`
+
+    ```js
+    database: process.env.DATABASE || 'node_db'
+    ```
+
+6. Ejecutar `docker-compose up --build` para construir las imagenes e iniciar los contenedores.
+7. Ingresar a `http://localhost:3000/`
