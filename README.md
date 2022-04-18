@@ -52,3 +52,5 @@ Comprométase en el camino para que podamos entender su forma de pensar!! :)
 
 6. Ejecutar `docker-compose up --build` para construir las imagenes e iniciar los contenedores.
 7. Ingresar a `http://localhost:3000/`
+
+<img width="1433" alt="image" src="https://user-images.githubusercontent.com/39013829/163893173-b085bf30-ac2b-431c-bfb5-26af7ab6dec7.png">
